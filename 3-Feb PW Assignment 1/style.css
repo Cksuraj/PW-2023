@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: grey; */
+}
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300;400&family=Poppins:wght@100&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+   body{
+    background: rgba(0, 0, 0, 0.7) url(Restourent.png);
+ background-blend-mode: saturation;
+   /* Unite  (vh , vw) can barbad your header flex element */ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+.logo img{
+      height: 40px;
+    padding: 20px;
+}
+
+.list{
+ display: flex;
+ justify-content: center;
+}
+
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
+    /* border: 2px solid red; */
+    
+}
+.list ul li a{
+    color: goldenrod;
+    font-weight: 500;
+    text-decoration: none;
+}
+.order{
+   padding-right:40px;
+}
+button{
+    background-color: rgb(218, 27, 20);
+    
+    color: white;
+    height:40px;
+    width: 15vh;
+    border: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    border: 2px solid red;
+  }
+footer
+{
+    border:  2px solid black; 
+}
+
+.text{
+    align-items: center;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.text h1{
+   color: goldenrod;
+    padding: 35px;
+    font-size: 80px;
+    font-weight: 250;
+}
+ 
+.btn{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+}
+.footer{
+    padding-top: 20px;
+    padding-right: 22px;
+    height:150px;
+    /* border:  2px solid red; */
+}
+.footer img{
+    height: 150px;
+    float: right;
+    
+}
