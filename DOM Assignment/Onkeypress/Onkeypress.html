@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style -->
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #2980b9;
+        background: -webkit-linear-gradient(
+          to right,
+          #ffffff,
+          #6dd5fa,
+          #2980b9
+        );
+        background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+      }
+
+      .input{
+    padding: 10px 20px;
+    margin: 2rem;
+    border-radius: 10px;
+}
+      .css2 {
+        display: flex;
+        border: 2px solid black;
+        border-radius: 16px;
+        padding: 2rem;
+      }
+    </style>
+
+    <title>OnKey Press</title>
+
+    <!--  Body  -->
+   <body>
+     
+    <h2>Enter Your key</h2>
+    <div class="css2">
+        <h1 id="display"> </h1>
+        <input id="input-box" type="text" class="input" placeholder="Type somthing..."/>
+        </div>
+
+      <!-- Script  -->
+
+      <script>
+
+//  Input-box
+
+let inputBox = document.getElementById('input-box') 
+
+inputBox.addEventListener('keypress', function(e){
+    display.innerText =" you have pressed key  :  " +  e.key
+})
+
+
+      </script>
+  </body>
+</html>

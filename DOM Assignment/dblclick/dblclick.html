@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- style  -->
+
+  <style>
+    body {
+
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #2980B9;
+      background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+      background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+
+    }
+
+    .css {
+      width: max-content;
+      padding: 16px;
+      margin: 1rem;
+      border-radius: 5px;
+    }
+
+    .css2 {
+      display: flex;
+      border: 2px solid black;
+      border-radius: 16px;
+      padding: 2rem;
+    }
+  </style>
+
+
+
+
+  <title>Double click Event Listnears</title>
+</head>
+
+<body>
+  <div class="css2">
+    <button id="dbltouch" class="css">Double click</button>
+
+    <!-- Doubble click Event  -->
+
+    <script>
+
+      let dblclickevent = document.getElementById("dbltouch");
+
+
+      //  Double click Event
+
+      function reset() {
+
+        document.querySelector(".css2").style.border = "6px solid red";
+
+      }
+
+      dblclickevent.addEventListener("dblclick", reset);
+
+
+    </script>
+  </div>
+</body>
+
+</html>

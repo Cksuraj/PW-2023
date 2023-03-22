@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fffc00;
+background: -webkit-linear-gradient(to right, #ffffff, #fffc00); 
+background: linear-gradient(to right, #ffffff, #fffc00); 
+
+}
+
+.counter{
+    color: white;
+    background-color:black;
+    padding: 30px;
+    text-align: center;
+    border: 5px solid cyan;
+    border-radius:0 50px 0 50px;
+    box-shadow: rgb(rgb(28, 13, 241), blue) , ;
+    font-size: 2rem;
+}
+
+#up{
+    padding: 16px;
+    margin: 1rem;
+    width: 100px;
+    border-radius: 5px; 
+}
+
+/* decrement */
+#down{
+    padding: 16px;
+    margin: 1rem;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #2BC0E4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+#resetbtn{
+    padding: 16px;
+    margin-bottom: 2rem;
+    width: 100px;
+    border-radius: 5px; 
+}
+
+.counter span{
+  padding: 0px 30px;   
+  border: 2px solid black;
+}

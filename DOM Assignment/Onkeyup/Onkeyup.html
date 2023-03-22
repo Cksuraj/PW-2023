@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style -->
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #2980b9;
+        background: -webkit-linear-gradient(
+          to right,
+          #ffffff,
+          #6dd5fa,
+          #2980b9
+        );
+        background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+      }
+
+      .input{
+    padding: 10px 20px;
+    margin: 2rem;
+    border-radius: 10px;
+}
+      .container {
+        display: flex;
+        border: 2px solid black;
+        border-radius: 16px;
+        padding: 2rem;
+      }
+    </style>
+
+    <title>Keyup-Keydown</title>
+
+    <!--  Body  -->
+   <body>
+     
+    <h2> Enter Your key </h2>
+    <div class="container">
+        <h1 id="display"> </h1>
+        <input id="input-box" type="text" class="input" placeholder="Type somthing..."/>
+        </div>
+
+      <!-- Script  -->
+
+      <script>
+
+
+let container = document.querySelector(".container");
+let display = document.getSelection(".display");
+
+// adding a keydown event listener to the document
+document.addEventListener("keydown", function (e) {
+  display.style.color = "red";
+  display.innerText = e.key + " is keyDown";
+});
+
+// adding a keyup event listener to the document
+document.addEventListener("keyup", function (e) {
+  display.style.color = "green";
+  display.innerText = e.key + " is keyUp";
+});
+
+      </script>
+  </body>
+</html>
