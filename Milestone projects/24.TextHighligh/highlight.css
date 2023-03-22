@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+/*  after clicking the button  */
+
+.lightext {
+    background-color: yellow;
+}
+
+.container {
+    height: 50vh;
+    padding: 100px;
+    margin: 4rem;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+.container p{
+    padding-bottom: 20px;
+}
+
+/* trying with onclick button */
+
+#Highlight{
+    padding: 20px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+

@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 2rem;
+    border: none;
+    background: #1c92d2;   background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2); background: linear-gradient(to right, #f2fcfe, #1c92d2); 
+}

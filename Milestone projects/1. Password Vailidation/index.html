@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Validation</title>
+</head>
+<body>
+    <header>
+        <h1>Password Validation</h1>
+    </header>
+    <main>
+        <form id="Password-Validation" class="form_class">
+            <div class="form_div">
+                <label>Current Password</label>
+                <input id="current_pass" class="field_class" name="current_pass" type="password" placeholder="Enter your Password"  >
+                <label> Confirm Password:</label>
+                <input id="Confirm_pass" class="field_class" name="Confirm_pass" type="password" placeholder="Enter again">
+                <p id="message"> </p>
+             <input type="button" id="cheak_pass" class="submit_class" onclick="validatepassword()" type="submit" form="Password-Validation"value=" Cheak Password ">
+
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
