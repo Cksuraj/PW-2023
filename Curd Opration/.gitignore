@@ -1,0 +1,5 @@
+#  Node mudules 
+node_modules/
+
+# Dotenv Credentials 
+.env

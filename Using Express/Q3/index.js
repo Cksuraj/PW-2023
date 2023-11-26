@@ -8,7 +8,6 @@ let counter = 0;
 
 // Middleware to parse incoming JSON data
 app.use(express.json());
-
 // getting the values
 
 app.get("/counter", (req, res) => {
