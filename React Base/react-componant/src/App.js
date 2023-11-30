@@ -13,7 +13,6 @@ function App() {
       <Button text="Count me!" onClick={() => console.log("Button clicked")} /> 
       <Header title="Welcome to learn React"  /> 
       <List items={itemList} />
-      
     </div>
   );
 }
